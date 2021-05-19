@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#skip {position: relative;}
+#skip a {position: absolute; left: 0px; top: -35px; border: 0.5px solid #fff; color:#fff; background: #333; line-height: 30px; width: 160px; text-align: center;}
+#skip a:active, #skip a:focus {top:0px; }
+
+#wrap {width: 100% }
+#wrap > #header {width:100%; height:325px; background: #111;}
+
+#wrap > #contents {width:100%; height:800px; background: #222;}
+#wrap > #contents > #cont_nav {width:100%; height: 200px; background: #333;}
+#wrap > #contents > #cont_tit {width:100%; height: 200px; background: #444;}
+#wrap > #contents > #cont_ban {width:100%; height: 200px; background: #555;} 
+#wrap > #contents > #cont_cont {width:100%; height: 200px; background: #666;}
+
+#wrap > #footer {width:100%; height:200px; background: #333;}
+
+.container {width: 990px; margin: 0 auto; height:inherit; background: rgba(255,255,255,0.3);}
